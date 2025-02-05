@@ -1,0 +1,159 @@
+---
+  title: When Markdown and JSX Have a Power Baby
+  summary: MDX is a powerful tool that allows you to write JSX in your Markdown files. This post will introduce you to the basics of MDX.
+  image: /images/code-cactus.jpeg
+  author: 'Tyanne Jensen'
+  publishedAt: '2025-02-05'
+---
+
+What do developers like more than learning? Problem solving and stream-lining
+processes, effectively.
+
+When it comes to writing content for the web, Markdown has been a favorite
+amongst developers and content creators due to the simplicity and ease of use.
+
+But, what if you could enhance Markdown by combining the power of React
+components to restructure the way you present your data?
+
+We present you with the answer: MDX.
+
+## So....What is MDX?
+
+Think of MDX as the secret weapon for developers who love both simplicity and
+power.
+
+At its core, MDX is a file format that combines the best aspects of Markdown and
+supercharges them JSX. This allows for the ability to embed interactive React
+components, pull in dynamic data, write inline JSX, and craft rich, engaging
+documents in Markdown.
+
+```
+export async function getSource() {
+  const response = await fetch('https://portfolio-2p4n.onrender.com/');
+  const data = await response.json();
+  return data;
+}
+```
+
+## MDX - Why?
+
+its 2025, we aren't settling for mediocre this year. So why settle for basic,
+when you can have brilliance?
+
+MDX isn't just another tool-it's **THE** tool. The missing link between static
+content and interactivity. It takes the simplicity of Markdown and injects it
+with the limitless power of React, making your documents more dynamic, engaging,
+and down right impressive.
+
+We all like that **WOW** factor, don't we?
+
+<Counter />
+
+### Here are some of the ways MDX is taking over:
+
+- **Reusable Components** - Imagine writing once and using that content
+  _everywhere._ With MDX, you can drop in React components like buttons, charts,
+  and interactive elements (like the one above) before you even finish that
+  first cup of coffee.
+- **Dynamic Content** - We live in 2025 now, your content shouldn't be stuck in
+  the past. MDX allows for real-time updates based on state, props, or API
+  data-so your documents evolve just as you, your data, and your projects do.
+- **Better Collaboration** - We all know that you take charge in your group
+  projects, so let's make things easier for ourselves, okay? Developers and
+  content creators, unite! Writers can focus on crafting Markdown, and the
+  developers can sprinkle in components for a seamless, enhanced experience.
+- **Effortless Integration** - MDX is a team player, and it works beautifully
+  with Next.js and Gatsby, making it easy to bring its magic into your existing
+  projects. Say goodbye to those boring README.md files. We are bringing life to
+  our projects in all the ways.
+
+## Let's Start
+
+Now, if you have made it this far - **_welcome to the team!!_** Let's get
+started! Thankfully, this setup is easier than debugging that CSS issue at 2 AM.
+(Are you feeling called out yet?)
+
+### Step 1: Installation
+
+_I wanted it, so I got it._ Lets install this wonderful tool.
+
+🛠 If you're using **Next.js**, run:
+
+```
+npm install @next/mdx @mdx-js/loader
+```
+
+🚀 For **Gatsby**, use:
+
+```
+npm install gatsby-plugin-mdx @mdx-js/react
+```
+
+Boom. The power is now at your command.
+
+## Step 2: Configure MDX
+
+_Now, lets make sure your project actually knows how to use this tool._
+
+🛠 For **Next.js**, update your next.config.js:
+
+```
+const withMDX = require('@next/mdx')();
+module.exports = withMDX({
+  pageExtensions: ['js', 'jsx', 'md', 'mdx']
+});
+```
+
+🚀 For **Gatsby**, tweak your gatsby-config.js:
+
+```
+module.exports = {
+  plugins: [
+    'gatsby-plugin-mdx'
+  ]
+};
+```
+
+PHEW! With this setup, MDX is locked and loaded. Time to have some fun!
+
+## Step 3: Write your first MDX File!
+
+This is the **best** part! Create a `.mdx` file and start mixing Markdown with
+JSX (or TS if you prefer) like a _PRO_.
+
+```
+# Welcome to MDX
+
+This is a standard Markdown paragraph.
+
+<MyComponent />
+
+Here's some **bold text** and a list:
+- Item 1
+- Item 2
+- Item 3
+```
+
+Yes, you literally embed a React component inside Markdown. Welcome to the
+future.
+
+🛠 If you're using **Next.js**, run:
+
+```
+npm install @next/mdx @mdx-js/loader
+```
+
+## How to use MDX
+
+To use MDX, you need to install a plugin for your static site generator or build
+tool. For example, if you're using Gatsby, you can use the `gatsby-plugin-mdx`
+plugin to enable MDX support in your project.
+
+Once you have the plugin installed, you can start writing MDX files by creating
+files with the `.mdx` extension and writing JSX inside them.
+
+## Conclusion
+
+MDX is a powerful tool that allows you to write JSX in your Markdown files. This
+post has introduced you to the basics of MDX and explained why you might want to
+use it in your projects.

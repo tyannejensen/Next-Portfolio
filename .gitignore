@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+build/
+
+# Logs and cache
+*.log
+.cache/
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Yarn error logs
+yarn-error.log
