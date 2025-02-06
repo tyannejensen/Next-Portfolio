@@ -9,7 +9,7 @@ import { NewsletterFormSchema } from '@/lib/schemas'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
-import { subscribe } from '@/lib/actions'
+// import { subscribe } from '@/lib/actions'
 import { Card, CardContent } from '@/components/ui/card'
 
 type Inputs = z.infer<typeof NewsletterFormSchema>
@@ -28,7 +28,9 @@ export default function NewsletterForm() {
   })
 
   const processForm: SubmitHandler<Inputs> = async data => {
-    const result = await subscribe(data)
+    const result = {
+      error: null
+    } // await subscribe(data)
 
     if (result?.error) {
       toast.error('An error occurred! Please try again.')

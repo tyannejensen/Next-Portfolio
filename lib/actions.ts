@@ -39,28 +39,28 @@ export async function sendEmail(data: ContactFormInputs) {
   }
 }
 
-export async function subscribe(data: NewsletterFormInputs) {
-  const result = NewsletterFormSchema.safeParse(data)
+// export async function subscribe(data: NewsletterFormInputs) {
+//   const result = NewsletterFormSchema.safeParse(data)
 
-  if (result.error) {
-    return { error: result.error.format() }
-  }
+//   if (result.error) {
+//     return { error: result.error.format() }
+//   }
 
-  try {
-    const { email } = result.data
-    const { data, error } = await resend.contacts.create({
-      email: email,
-      audienceId: process.env.RESEND_AUDIENCE_ID as string
-    })
+//   try {
+//     const { email } = result.data
+//     const { data, error } = await resend.contacts.create({
+//       email: email,
+//       audienceId: process.env.RESEND_AUDIENCE_ID as string
+//     })
 
-    if (!data || error) {
-      throw new Error('Failed to subscribe')
-    }
+//     if (!data || error) {
+//       throw new Error('Failed to subscribe')
+//     }
 
-    // TODO: Send a welcome email
+//     // TODO: Send a welcome email
 
-    return { success: true }
-  } catch (error) {
-    return { error }
-  }
-}
+//     return { success: true }
+//   } catch (error) {
+//     return { error }
+//   }
+// }
