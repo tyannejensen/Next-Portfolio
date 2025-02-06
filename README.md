@@ -5,9 +5,20 @@ functionality. This isn't just another portfolio—it's a dynamic, interactive
 showcase that’s sleek, user-friendly, and loaded with cool features. Ready to
 vibe with me as we explore the magic behind the code? Let's go!
 
-/Users/vibewithme1123/dev/projects/portfolio-next/public/images/landingPage.jpeg
+## Walkthrough Video
 
-/Users/vibewithme1123/dev/projects/portfolio-next/public/images/posts.jpeg
+## Walk Through
+Link to live site: 
+click here &rarr; 
+[https://next-portfolio--two.vercel.app/](https://next-portfolio--two.vercel.app/)
+
+
+![8C73C964-01C8-41BB-8DED-5D6D636C6728](https://github.com/user-attachments/assets/e2706fbb-6c16-41c2-ac80-d4a3959851c9)
+
+
+![8740A030-6C8F-4F92-93B8-8AA960F60990](https://github.com/user-attachments/assets/858ff845-0b3a-4dd6-bbdc-36a41721c9c7)
+
+
 
 ## ✨ Features
 
