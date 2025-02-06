@@ -3,7 +3,6 @@ import { highlight } from 'sugar-high'
 import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote/rsc'
 
 import Counter from '@/components/counter'
-import CopyCard from '@/components/copy-card'
 
 function Code({ children, ...props }: any) {
   let codeHTML = highlight(children)
@@ -12,8 +11,7 @@ function Code({ children, ...props }: any) {
 
 const components = {
   code: Code,
-  Counter,
-  CopyCard
+  Counter
 }
 
 export default function MDXContent(

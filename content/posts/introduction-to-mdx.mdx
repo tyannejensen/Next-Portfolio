@@ -89,9 +89,9 @@ npm install @next/mdx @mdx-js/loader
 npm install gatsby-plugin-mdx @mdx-js/react
 ```
 
-Boom. The power is now at your command.
+Boom. The power is now at your com.......ponent.
 
-## Step 2: Configure MDX
+### Step 2: Configure MDX
 
 _Now, lets make sure your project actually knows how to use this tool._
 
@@ -116,10 +116,10 @@ module.exports = {
 
 PHEW! With this setup, MDX is locked and loaded. Time to have some fun!
 
-## Step 3: Write your first MDX File!
+### Step 3: Write your first MDX File!
 
-This is the **best** part! Create a `.mdx` file and start mixing Markdown with
-JSX (or TS if you prefer) like a _PRO_.
+This is the **best** part! Create an <mark>.mdx</mark> file and start mixing
+Markdown with JSX (or TS if you prefer) like a _PRO_.
 
 ```
 # Welcome to MDX
@@ -129,7 +129,7 @@ This is a standard Markdown paragraph.
 <MyComponent />
 
 Here's some **bold text** and a list:
-- Item 1
+- <mark> mark = highlighter, this text would be highlighted </mark>
 - Item 2
 - Item 3
 ```
@@ -143,17 +143,38 @@ future.
 npm install @next/mdx @mdx-js/loader
 ```
 
-## How to use MDX
+## Let's Get Started!
 
-To use MDX, you need to install a plugin for your static site generator or build
-tool. For example, if you're using Gatsby, you can use the `gatsby-plugin-mdx`
-plugin to enable MDX support in your project.
+To actually use your MDX file, just import it like any other react component:
 
-Once you have the plugin installed, you can start writing MDX files by creating
-files with the `.mdx` extension and writing JSX inside them.
+```
+import MyContent from './my-content.mdx';
 
-## Conclusion
+export default function Page() {
+  return (
+    <div>
+      <MyContent />
+    </div>
+  );
+}
+```
 
-MDX is a powerful tool that allows you to write JSX in your Markdown files. This
-post has introduced you to the basics of MDX and explained why you might want to
-use it in your projects.
+You are now an MDX wizard. 🧙‍♂️ _I expecto your patronum to use this for
+yourself!_
+
+## Final Thoughts: MDX is my MVP
+
+Let's be real--once you see what MDX can do, there's no going back. It's
+Markdown, but with superpowers. MDX = Batman `nuff said.
+
+It lets you write content your way, while seamlessly blending in the
+interactivity of React.
+
+Gone are the days of static, lifeless documents. (We do live in the era of
+technology after-all!) Whether you're crafting a blog, a documentation site, or
+even an interactive knowledge base, MDX makes your content smarter, more
+dynamic, and just flat-out cooler.
+
+Don't just take my word for it, you are a dev aren't you? Get going!
+
+## ~Happy Coding~
