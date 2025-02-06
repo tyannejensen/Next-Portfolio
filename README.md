@@ -5,8 +5,6 @@ functionality. This isn't just another portfolio—it's a dynamic, interactive
 showcase that’s sleek, user-friendly, and loaded with cool features. Ready to
 vibe with me as we explore the magic behind the code? Let's go!
 
-## Walkthrough Video
-
 ## Walk Through
 Link to live site: 
 click here &rarr; 
