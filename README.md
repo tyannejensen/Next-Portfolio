@@ -1,26 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Showcase: Portfolio page
 
-## Getting Started
+Welcome to my front-end portfolio project, where tech meets creativity and
+functionality. This isn't just another portfolio—it's a dynamic, interactive
+showcase that’s sleek, user-friendly, and loaded with cool features. Ready to
+vibe with me as we explore the magic behind the code? Let's go!
 
-First, run the development server:
+/Users/vibewithme1123/dev/projects/portfolio-next/public/images/landingPage.jpeg
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/Users/vibewithme1123/dev/projects/portfolio-next/public/images/posts.jpeg
+
+## ✨ Features
+
+- 📝 **MDX Support:** Write rich content in MDX format, blending Markdown with
+  React components.
+
+- 🖌️ **Syntax Highlighting:** Code blocks are beautifully highlighted for easy
+  readability.
+
+- 🌈 **Custom Components:** Integrate custom React components seamlessly into
+  your MDX files.
+
+- 🛋️ **Responsive Design:** Fully responsive design that looks great on any
+  device.
+
+## 🛠️ Tech Stack
+
+- ⚡️ **Next.js:** The powerhouse React framework behind dynamic, fast-loading
+  pages
+
+- 📝 **MDX:** Write rich content in MDX format, blending Markdown with React
+  components.
+
+- 🎨 **Tailwind CSS:** Styling on point with utility-first classes for custom,
+  clean designs.
+
+- 🌎 **Vercel:** Deploying made effortless. Push, click, and your side it live.
+
+## 🏧 Getting Started
+
+Wanna dive into the code? Here’s how you can get started:
+
+### Step 1: Clone the repo:
+
+```
+git clone git@github.com:tyannejensen/Next-Portfolio.git
+cd Next-Portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 2: Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Step 3: Run the dev server:
 
-## Learn More
+```
+npm run dev
+```
+
+The development server will start at `http://localhost:3000`.
+
+## Deployment
+
+To deploy this project, you can use Vercel. You can link your GitHub repository
+to Vercel and deploy the project with a single click.
+
+## 🎉 Conclusion
+
+This portfolio website is the perfect fusion of creativity and code. By
+harnessing the power of React, MDX, and Bootstrap, I've crafted a space where I
+can share my projects, ideas, and passions. Whether you're here to explore my
+work or get inspired, I hope this portfolio leaves you vibing with fresh ideas
+and excitement!
 
 To learn more about Next.js, take a look at the following resources:
 
